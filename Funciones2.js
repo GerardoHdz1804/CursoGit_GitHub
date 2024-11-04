@@ -37,6 +37,14 @@ function restame(num1, num2, restaMuestra, restaDos, restaTres){
     return restar;
 }
 
+function multiplicame(num1, num2, multMuestra, multDos, multTres){
+    var multiplicar = num1 * num2;
+    multMuestra(multiplicar);
+    multDos(multiplicar);
+    multTres(multiplicar*1)
+    return multiplicar;
+}
+
 //Funciones Flecha
 sumame(5,7, dato => {
     console.log("La suma es: ", dato);
