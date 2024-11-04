@@ -21,11 +21,20 @@ var pelicula2 = function(nombre){
     return "La pelicula dos es: "+ nombre;
 };
 
-function sumame(num1, num2, sumaMuestra, sumaDos){
+function sumame(num1, num2, sumaMuestra, sumaDos, sumaTres){
     var sumar = num1 + num2;
     sumaMuestra(sumar);
     sumaDos(sumar);
+    sumaTres(sumar+1)
     return sumar;
+}
+
+function restame(num1, num2, restaMuestra, restaDos, restaTres){
+    var restar = num1 - num2;
+    restaMuestra(restar);
+    restaDos(restar);
+    restaTres(restar-1)
+    return restar;
 }
 
 //Funciones Flecha
