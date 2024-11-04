@@ -17,6 +17,10 @@ var pelicula = function(nombre){
     return "La pelicula es: "+ nombre;
 };
 
+var pelicula2 = function(nombre){
+    return "La pelicula dos es: "+ nombre;
+};
+
 function sumame(num1, num2, sumaMuestra, sumaDos){
     var sumar = num1 + num2;
     sumaMuestra(sumar);
