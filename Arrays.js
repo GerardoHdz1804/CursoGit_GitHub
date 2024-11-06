@@ -1,6 +1,6 @@
-'use strict'
+'use strict' 
 
-var arreglo = ["Gerardo","Raymundo","Javier","Natalia",22,true];
+var arreglo = ["Gerardo","Raymundo","Javier","Natalia","Luis",22,true];
 console.log(arreglo);
 console.log(arreglo[2]);
 console.log(arreglo.length);
